@@ -11,6 +11,7 @@ function ProductFeed({ products }) {
       .slice(0,4)
       .map(({id , title , price , description ,category ,image}) => (
         <Product 
+        
           key={id}
           id={id}
           title={title}
